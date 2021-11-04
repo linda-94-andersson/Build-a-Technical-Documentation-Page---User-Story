@@ -1,0 +1,87 @@
+html{
+  
+}
+
+h1 {
+  display: block;
+  position: fixed; 
+  padding-left: 270px; 
+  width: 900px; 
+  height: 40px; 
+  background: white; 
+  /*padding: 0px 300px 0px 310px; 
+  border: 3px solid black; */ 
+}
+
+section {
+  padding-left: 270px; 
+  max-width: 900px; 
+  border: 1px solid black;  
+}
+
+#navbar {
+  position: fixed; 
+  left: 0;
+  background: white; 
+  padding: 20px; 
+  border: 2px solid black; 
+  padding-bottom: 900px; 
+  height: 100%;
+}
+
+a:link {
+  color: black; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: grey; 
+  text-decoration: overline solid grey; 
+  
+}
+
+code {
+  background-color: grey; 
+  color: black; 
+  padding: 0px 5px 0px 5px; 
+}
+
+#The_Ingredients { 
+  padding-top: 110px; 
+  
+}
+
+#Making_the_filling {
+   padding-top: 50px; 
+}
+
+#Making_the_puff_pastry {
+  padding-top: 20px; 
+}
+
+#Continue_with_the_beef_wellington {
+  padding-top: 20px; 
+}
+
+#Making_the_red_wine_sauce {
+  padding-top: 20px; 
+}
+
+#Finishing_the_beef_wellington {
+ padding-top: 20px; 
+  padding-bottom: 50px; 
+}
+
+@media (max-width: 800px) {
+  h1 {
+    width: 495.5px; 
+  }
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  padding-bottom: 10px; 
+  padding-top: 5px; 
+  background: white;  
+}
